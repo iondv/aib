@@ -1,0 +1,366 @@
+{
+  "classes": {
+    "agent": {
+      "uml": {
+        "offset": {
+          "top": 6,
+          "left": 6
+        }
+      }
+    },
+    "signal": {
+      "uml": {
+        "offset": {
+          "top": 6,
+          "left": 320
+        }
+      }
+    }
+  },
+  "workflows": {},
+  "interfaces": [],
+  "changeLogs": [
+    {
+      "action": "create",
+      "type": "class",
+      "name": "agent",
+      "date": "2020-06-23T01:16:39.273Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "guid.agent",
+      "date": "2020-06-23T01:16:39.301Z"
+    },
+    {
+      "action": "create",
+      "type": "class",
+      "name": "signal",
+      "date": "2020-06-23T02:02:23.450Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "guid.signal",
+      "date": "2020-06-23T02:02:23.587Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "code.agent",
+      "date": "2020-06-23T02:06:10.376Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "version.agent",
+      "date": "2020-06-23T02:06:39.419Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "name.agent",
+      "date": "2020-06-23T02:06:51.215Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "description.agent",
+      "date": "2020-06-23T02:07:09.441Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "type.agent",
+      "date": "2020-06-23T02:09:00.685Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "path.agent",
+      "date": "2020-06-23T02:09:25.835Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "dateCreate.agent",
+      "date": "2020-06-23T02:10:25.042Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "editDate.agent",
+      "date": "2020-06-23T02:11:07.919Z"
+    },
+    {
+      "action": "update",
+      "type": "class",
+      "name": "agent",
+      "oldValue": {
+        "creationTracker": "",
+        "changeTracker": "",
+        "key": [
+          null
+        ]
+      },
+      "newValue": {
+        "creationTracker": "dateCreate",
+        "changeTracker": "editDate",
+        "key": [
+          null
+        ]
+      },
+      "date": "2020-06-23T02:11:21.714Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "code.signal",
+      "oldValue": {
+        "name": "guid",
+        "caption": "ID",
+        "type": 12,
+        "readonly": true,
+        "autoassigned": true,
+        "nullable": true
+      },
+      "newValue": {
+        "name": "code",
+        "caption": "Code",
+        "type": 0,
+        "readonly": false,
+        "autoassigned": false,
+        "nullable": false
+      },
+      "date": "2020-06-23T02:12:54.325Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "input.agent",
+      "date": "2020-06-23T02:14:06.166Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "output.agent",
+      "date": "2020-06-23T02:14:41.992Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "dateLastStart.agent",
+      "date": "2020-06-23T02:16:15.497Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "paramStart.agent",
+      "date": "2020-06-23T02:21:20.497Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "launch.agent",
+      "oldValue": {
+        "name": "paramStart",
+        "caption": "Start parameter",
+        "type": null
+      },
+      "newValue": {
+        "name": "launch",
+        "caption": "To Run?",
+        "type": null
+      },
+      "date": "2020-06-23T02:23:31.307Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "runResult.agent",
+      "date": "2020-06-23T02:26:33.411Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "run.agent",
+      "oldValue": {
+        "name": "launch",
+        "type": null
+      },
+      "newValue": {
+        "name": "run",
+        "type": null
+      },
+      "date": "2020-06-23T02:37:02.608Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "dateLastStart.agent",
+      "oldValue": {
+        "orderNumber": 120,
+        "type": null
+      },
+      "newValue": {
+        "orderNumber": 130,
+        "type": null
+      },
+      "date": "2020-06-23T02:37:36.145Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "run.agent",
+      "oldValue": {
+        "orderNumber": 130,
+        "type": null
+      },
+      "newValue": {
+        "orderNumber": 120,
+        "type": null
+      },
+      "date": "2020-06-23T02:37:40.924Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "signalParamWaiting.agent",
+      "date": "2020-06-23T02:43:27.796Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "signalParamWaitResult.agent",
+      "date": "2020-06-23T02:45:50.467Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "signalParamWaitFinish.agent",
+      "oldValue": {
+        "name": "signalParamWaiting",
+        "type": null
+      },
+      "newValue": {
+        "name": "signalParamWaitFinish",
+        "type": null
+      },
+      "date": "2020-06-23T02:46:08.550Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "signalParamQueue.agent",
+      "date": "2020-06-23T02:48:02.630Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "memoryType.agent",
+      "date": "2020-06-23T03:01:38.635Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "memoryTypeValue.agent",
+      "date": "2020-06-23T03:02:38.135Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "memoryValue.agent",
+      "date": "2020-06-23T03:03:48.598Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "runInit.agent",
+      "date": "2020-06-23T03:06:07.701Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "version.signal",
+      "date": "2020-06-23T03:09:25.852Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "type.signal",
+      "date": "2020-06-23T03:11:14.776Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "save.signal",
+      "date": "2020-06-23T03:14:27.501Z"
+    },
+    {
+      "action": "create",
+      "type": "class attribute",
+      "name": "saveClassName.signal",
+      "date": "2020-06-23T03:15:04.425Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "saveClassName.signal",
+      "oldValue": {
+        "unique": false,
+        "type": null
+      },
+      "newValue": {
+        "unique": true,
+        "type": null
+      },
+      "date": "2020-06-23T03:15:14.515Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "saveClassName.signal",
+      "oldValue": {
+        "nullable": false,
+        "type": null
+      },
+      "newValue": {
+        "nullable": true,
+        "type": null
+      },
+      "date": "2020-06-23T03:15:18.441Z"
+    },
+    {
+      "action": "update",
+      "type": "class attribute",
+      "name": "version.signal",
+      "oldValue": {
+        "indexed": true,
+        "type": null
+      },
+      "newValue": {
+        "indexed": false,
+        "type": null
+      },
+      "date": "2020-06-23T03:15:36.363Z"
+    },
+    {
+      "action": "create",
+      "type": "nav section",
+      "name": "aib",
+      "date": "2020-06-23T03:27:43.606Z"
+    },
+    {
+      "action": "create",
+      "type": "nav item",
+      "name": "agents.aib",
+      "date": "2020-06-23T03:27:59.229Z"
+    },
+    {
+      "action": "create",
+      "type": "nav item",
+      "name": "signals.aib",
+      "date": "2020-06-23T03:28:52.679Z"
+    }
+  ]
+}

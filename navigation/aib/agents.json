@@ -1,0 +1,15 @@
+{
+  "code": "agents",
+  "caption": "Agents",
+  "type": 1,
+  "orderNumber": 10,
+  "title": "",
+  "hint": "",
+  "classname": "agent",
+  "container": "",
+  "collection": "",
+  "url": "",
+  "conditions": [],
+  "sorting": [],
+  "pathChains": []
+}

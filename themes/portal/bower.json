@@ -1,0 +1,23 @@
+{
+  "name": "aib",
+  "version": "0.0.1",
+  "authors": [],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2",
+    "jquery-ui": "*",
+    "jquery.inputmask": "~4",
+    "store-js": "~1.3.20"
+  }
+}

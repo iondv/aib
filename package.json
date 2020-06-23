@@ -1,0 +1,12 @@
+{
+  "name": "aib",
+  "description": "IONDV. Artificial Intelligence Bus module",
+  "version": "0.0.1",
+  "ionModulesDependencies": {},
+  "ionMetaDependencies": {},
+  "changeState": {
+    "major": true,
+    "minor": true,
+    "patch": true
+  }
+}
