@@ -1,13 +1,12 @@
-This page in [Russian](./README_RU.md)
+Эта страница на [русском](./README_RU.md)
 
 # IONDV. Artificial Intelligence Bus
-
 
 **Artificial Intelligence Bus** (AIB, AIB module) - is an IONDV. Framework module. It's a central module designed specifically for 
 develop complexity multi-agent systems. That kind of systems composed of multiple interacting software intelligent agents.
 
 ### Status
-Status. The module is at the initial stage of creation along with demo applications. You can track it by issues https://github.com/iondv/aib/issues
+The module is at the initial stage of creation along with demo applications. You can track it by issues https://github.com/iondv/aib/issues
 
 ### IONDV. Framework in brief
 
