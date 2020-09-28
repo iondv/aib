@@ -30,10 +30,10 @@ This page in [English](./README.md)
 
 IONDV. Artificial Intelligence Framework обеспечит реализацию:
 * сбор, разметка и хранение размеченных данных из различных источников:
-  * веб-скрапинг. Статус: частично реализовано модуль [https://github.com/iondv/web-scraping](web-scraping module) в работе.
+  * веб-скрапинг. Статус: частично реализовано модуль [web-scraping](https://github.com/iondv/web-scraping) в работе.
   * разметка, нормирование изображений, создание, обучение и сопоставление моделей Tensor Flow без программирования в виде пенсорсного приложения [iondv. tensorflow-dataset](https://github.com/iondv/tensorflow-dataset). Статус: в активной разработке. Плановый срок готовности 15 октября 2020 г.
   * интеграции с внешними системами для получения данных либо выдачи данных (REST-API, SOAP API). 
-     Статус: реализовано в виде модулей [https://github.com/iondv/rest](rest) [https://github.com/iondv/soap](soap)
+     Статус: реализовано в виде модулей [rest](https://github.com/iondv/rest) [soap](https://github.com/iondv/soap)
   * хранения больших массивов размещенных данных (статус: реализовано в [ядре системы](https://github.com/iondv/framework)
 * работа с сигналами и агентами осуществялется в данном модуле Artificial Intelligence Bus. Статус - в разработке. Ключевая функциональность:
   * получение любых данных в качестве сигналов, вызова агентов подписанных на сигналы, передача результатов обработки 
