@@ -12,7 +12,7 @@ The module is currently at the initial stage of development along with the demo 
 
 ### IONDV. Framework in brief
 
-**IONDV. Framework** is a node.js open source application that implements the functionality of a digital tool platform for rapid development of web applications and micro-services based on metadata and can be extended with modules. The main purpose of the complex of solutions is to speed up the development of accounting web applications (ERP) using low-code technology. This platform consists of the following open-source components: the [IONDV. Framework](https://github.com/iondv/framework), the [modules](https://github.com/topics/iondv-module) and the ready-made applications expanding its functionality, and the  [Studio](https://github.com/iondv/studio) visual development environment to create metadata of an application.
+**IONDV. Framework** is a node.js open source application that implements the functionality of a digital tool platform for rapid development of web applications and micro-services based on metadata and can be extended with modules. The main purpose of the complex of solutions is to speed up the development of accounting web applications (ERP) using low-code technology. This platform consists of the following open-source components: the [IONDV. Framework](https://github.com/iondv/framework), the [modules](https://github.com/topics/iondv-module) and the ready-made applications expanding its functionality, as well as the  [Studio](https://github.com/iondv/studio) open source visual development environment to create metadata of an application. The developed application can be launched in 80 seconds.
 
 * For more details, see [IONDV. Framework site](https://iondv.com). 
 
@@ -23,6 +23,7 @@ The module is currently at the initial stage of development along with the demo 
 **IONDV. Artificial Intelligence Framework** will provide the implementation of:
 * collecting, marking up, and storing marked-up data from various sources:
   * web scraping. Status: partially implemented [web-scraping module](https://github.com/iondv/web-scraping) in operation.
+  * markup, image normalization, creation, training and comparison of Tensor Flow models without programming in the [IONDV. Tensorflow-dataset](https://github.com/iondv/tensorflow-dataset) open source application. Status: in active development. The planned release date: October 15, 2020.
   * integration with external systems for receiving and issuing data (REST-API, SOAP API). 
      Status: implemented as modules [REST](https://github.com/iondv/rest) and [SOAP](https://github.com/iondv/soap)
   * storage of large amounts of hosted data. Status: implemented in the [system core](https://github.com/iondv/framework)
@@ -46,21 +47,19 @@ The module is currently at the initial stage of development along with the demo 
 
 ## Examples of using the module
 The module is currently under development. Related modules and demo applications are developed along with it:
- 
- * **[Web scraping module](https://github.com/iondv/web-scraping)** - the module is designed to receive additional data for agents and save the results or transfer them as input signals to the AIB bus of the module. Demo application example: [Freight-Quote repository](https://github.com/iondv/freight-quote), [How-to-use video](https://www.youtube.com/watch?v=-2IfSOecc_w) and [Freight-Quote demo application](https://freight-quote.iondv.com).
- * **[Trading app](https://github.com/iondv/trading)** - an application for demonstrating the capabilities of modules on the example of the stock market. Status: currently under development. Key functionality:
+ * **[IONDV. Tensorflow-dataset](https://github.com/iondv/tensorflow-dataset)** - an application for markup, image normalization, creation, training, and comparison of Tensor Flow models without programming. License: Apache 2.
+ * **[Web scraping module](https://github.com/iondv/web-scraping)** - the module is designed to receive additional data for agents and save the results or transfer them as input signals to the AIB bus of the module. Demo application example: [Freight-Quote repository](https://github.com/iondv/freight-quote), [How-to-use video](https://www.youtube.com/watch?v=-2IfSOecc_w) and [Freight-Quote demo application](https://freight-quote.iondv.com). License: Apache 2.
+ * **[Trading app](https://github.com/iondv/trading)** - an application for demonstrating the capabilities of modules on the example of the stock market. Status: currently under development.  License: Apache 2. Key functionality:
    * receiving data by web scraping investing.com web site using key indicators of the American market (SPY) and transmitting them to an agent in the AIB bus to generate input signals
    * receiving data from the Quick application connected to the broker using the observed indicators of the Russian market and transmitting them to the agent in the AIB bus for generating input signals
    * several types of agents analyze the signals they are subscribed to and give predictive signals of potential index movement
    * aggregator agents which are subscribed to index movement signals make decisions on the actions to be performed
    * agents associated with the brokerage program transfer tasks to perform actions on the exchange 
- * **[Fashion Goods app](https://github.com/iondv/fashion-goods)** - application for automatic classification of product types based on TensorFlow.
-   Based on the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset and 
-   [training model](https://www.tensorflow.org/tutorials/keras/classification?hl=ru). Status: currently under development. 
-   The next stage involves retraining the model using the initially recognized and corrected objects and using the new model.
+ * **[Fashion Goods app](https://github.com/iondv/fashion-goods)** - application for automatic classification of product types based on TensorFlow, the [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset and 
+   [training model](https://www.tensorflow.org/tutorials/keras/classification?hl=ru). Status: working prototype, awaiting transfer to the AIB bus. 
  * **Application for analyzing the quality of state and municipal services in electronic form** Status:  implemented on a complex of various technologies: iondv. framework, gitlab CI, puppeteer, [natural.js](https://github.com/NaturalNode/natural).
-    The transfer to an application on the AIB bus is currently in progress.
- * **Analysis of available slots for doctor appointments and the quality of the clinic's work** Status: implemented on a complex of various technologies: iondv. framework, gitlab CI, puppeteer. The transfer to an application on the AIB bus is currently in progress.
+    The transfer to an application based on the AIB bus is currently in progress. License: IONDV LLC.
+ * **Analysis of available slots for doctor appointments and the quality of the clinic's work** Status: implemented on a complex of various technologies: iondv. framework, gitlab CI, puppeteer. The transfer to an application based on the AIB bus is currently in progress.
  
   
  --------------------------------------------------------------------------  
